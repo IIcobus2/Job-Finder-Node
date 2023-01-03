@@ -1,0 +1,22 @@
+{
+  "name": "jobfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIcobus2/Job-Finder-Node.git"
+  },
+  "author": "Walter Felizardo (IIcobus)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IIcobus2/Job-Finder-Node/issues"
+  },
+  "homepage": "https://github.com/IIcobus2/Job-Finder-Node#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
