@@ -1,7 +1,7 @@
 # Job-Finder-Node
 Job Finder in NodeJS
 
-## Sobre Express:
+## About Express (Sobre Express):
 
 - *app.get(path, callback):* Cria uma rota que aceita solicitações "get" para a URL especificada em "path" e executa a função de callback fornecida.
 
