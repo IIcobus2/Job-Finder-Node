@@ -1,0 +1,17 @@
+<div id="rent-view-container" class="container">
+  <div class="row text-center">
+    <a class="back-link main-color" href="/">Voltar</a>
+    <div id="img-container" class="col-md-12">
+      <img src="/img/company.svg" alt="Company">
+    </div>
+    <div class="col-md-12">
+      <h1 class="main-color">{{rent.dataValues.title}}</h1>
+      <p class="bold">Cidade que fica o aluguel:</p>
+      <p class="rent-desc">{{rent.dataValues.city}}</p>
+      <p><span class="bold">O valor para o aluguel informado é de:</span> R${{rent.dataValues.value}}</p>
+      <p>
+        Para morar na <span class="bold main-color">{{rent.dataValues.title}}</span> envie um e-mail para a <a class="main-color" href="mail:to{{job.dataValues.email}}">{{job.dataValues.email}}</a>
+      </p>
+    </div>
+  </div>
+</div>

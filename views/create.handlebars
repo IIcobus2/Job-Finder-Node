@@ -1,0 +1,35 @@
+<div id="add-form-container" class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">Divulgue a vaga preenchendo o formulário</h1>
+      </div>
+      <div id="form-box" class="col-md-12">
+        <h2>Preencha os dados da melhor forma possível para encontrar mais rápido anuncio de aluguel!</h2>
+        <form action="/rents/create" method="POST">
+          <div class="form-group">
+            <label for="title">Título do anuncio:</label>
+            <input type="text" class="form-control" id="title" name="title" placeholder="Digite o título do anuncio" required>
+            <small id="titleHelp" class="form-text text-muted">O título é muito importante, seja claro e objetivo.</small>
+          </div>
+          <div class="form-group">
+            <label for="cidade">Cidade do aluguel:</label>
+            <input type="text" class="form-control" id="cidade" name="city" placeholder="Digite o nome da cidade que se encontra o aluguel anunciado" required></input>
+          </div>
+          <div class="form-group">
+            <label for="locador">Locador do aluguel:</label>
+            <input type="text" class="form-control" id="locador" name="locator" placeholder="Digite o nome da empresa/pessoa locadora do imovel" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail para contato:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Digite o e-mail para contato" required>
+          </div>
+          <div class="form-group">
+            <label for="value">Preço oferecido:</label>
+            <input type="text" class="form-control" id="value" name="value" placeholder="Digite o valor do aluguel" required>
+          </div>
+          <input type="hidden" name="new_rent" value="1">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
